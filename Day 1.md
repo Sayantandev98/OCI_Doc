@@ -22,3 +22,26 @@ This will create a new repo
 10. Rename the file and Commit to Save changes
 
 **CREATE ACCOUNT IN OCI**
+1. Go to https://signup.cloud.oracle.com/
+2. Fill the below form and verify email
+   ![image](https://github.com/user-attachments/assets/8437c8dc-99e9-44ed-80ed-1bf6ea9aba47)
+3. Verify the email from mail address
+4. Provide the Password and select the region and account name
+5. Select account type as Individual and give an account name
+6. Select region as US East(Ashburn) because most services are available there
+7. Select next and on the next page provide the billing address mentioned in the credit card
+8. Select verify payment by providing your credit card details.
+9. Wait for your account to get created
+10. Login to your default tenancy and add Oracle authenticator
+
+
+Q: What is oracle cloud?
+A: Oracle Cloud is Oracle Corporation’s comprehensive suite of cloud computing services that helps businesses build, deploy, and manage applications and workloads in a secure and scalable environment. It includes Oracle Cloud Infrastructure (OCI), which provides core infrastructure services like compute, storage, networking, and databases, and is designed to compete with other major cloud providers like AWS and Azure. Oracle Cloud also offers platform services (PaaS) for developers and data professionals, along with a wide range of SaaS applications for enterprise needs such as ERP, HCM, and CRM. Known for its high-performance infrastructure and strong support for Oracle databases and applications, Oracle Cloud is widely used by enterprises looking for reliable, secure, and integrated cloud solutions.
+
+Q: Difference between On-Prem and cloud
+A: On-Premises infrastructure is owned, operated, and maintained by the organization itself, giving complete control over hardware, security, and data, but also requiring high upfront costs, ongoing maintenance, and scalability limitations. Cloud computing, on the other hand, allows businesses to rent resources like storage, compute power, and databases on demand from third-party providers, offering greater scalability, reduced capital expenditure, and faster deployment, while shifting the responsibility for hardware management and upgrades to the provider.
+
+Q: What is Tenancy
+A: In Oracle Cloud Infrastructure (OCI), a Tenancy represents your organization's primary cloud account and acts as the top-level container for all your resources. When you subscribe to OCI, a Tenancy is automatically created with a unique Oracle Cloud Identifier (OCID), and it serves as the foundational space where you manage all services, resources, and configurations. Within this Tenancy, you create compartments to logically segment and organize resources such as compute instances, databases, and storage, while access controls and policies are applied at both the Tenancy and compartment levels. Essentially, the Tenancy sets the boundary for all your cloud operations, ensuring that your environment is properly structured, secure, and manageable.
+
+Q
