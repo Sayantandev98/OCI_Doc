@@ -44,4 +44,12 @@ A: On-Premises infrastructure is owned, operated, and maintained by the organiza
 Q: What is Tenancy
 A: In Oracle Cloud Infrastructure (OCI), a Tenancy represents your organization's primary cloud account and acts as the top-level container for all your resources. When you subscribe to OCI, a Tenancy is automatically created with a unique Oracle Cloud Identifier (OCID), and it serves as the foundational space where you manage all services, resources, and configurations. Within this Tenancy, you create compartments to logically segment and organize resources such as compute instances, databases, and storage, while access controls and policies are applied at both the Tenancy and compartment levels. Essentially, the Tenancy sets the boundary for all your cloud operations, ensuring that your environment is properly structured, secure, and manageable.
 
-Q
+Q: Difference between region vs Ad and Fd
+Concept	Region	Availability Domain (AD)	Fault Domain (FD)
+Definition	A geographical area (e.g., India West)	A data center within a region	A logical group within an AD for fault isolation
+Scope	Broadest (contains multiple ADs)	Part of a region	Subset of an AD
+Purpose	Enable global distribution	Provide high availability across data centers	Increase resilience within an AD
+Redundancy Level	Global	Regional (data center-level)	Rack/power unit-level
+Failure Isolation	Region-wide events	Isolated from failures in other ADs	Isolated from failures in other FDs
+Example	us-ashburn-1, india-hyderabad-1	AD-1, AD-2, AD-3 (in a region)	FD-1, FD-2, FD-3 (inside one AD)
+Deployment Use Case	Disaster recovery & global scaling	High availability within a region	Resilience against hardware failure
