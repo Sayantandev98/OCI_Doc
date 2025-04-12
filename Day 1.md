@@ -1,6 +1,6 @@
-#OCI Day 1
+**OCI Day 1**
 
-##Instal VS Code and Setup Github
+**Instal VS Code and Setup Github**
 1. Go to https://code.visualstudio.com/download
 2. Open installer.exe and agree the terms and conditions and finish the setup
 3. Open VScode
@@ -21,4 +21,4 @@ This will create a new repo
 ![image](https://github.com/user-attachments/assets/0ddda393-9caf-40ef-b90b-9c850bd21fbc)
 10. Rename the file and Commit to Save changes
 
-##CREATE ACCOUNT IN OCI
+**CREATE ACCOUNT IN OCI**
